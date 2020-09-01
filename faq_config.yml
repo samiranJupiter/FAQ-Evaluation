@@ -1,0 +1,12 @@
+model_url: "https://search.dsdev.jupiter.money/models/1/faq-qa"
+model_name: model_1_es_50_em_50
+results_dir: results
+test_set: "faq_sample_test_2020_08_28.csv"
+top_k_reader: 5
+es_weight: 0.5
+embedding_weight: 0.5
+remove_stopwords: True
+search_in_question: True
+search_in_answer: True
+top_n: 2
+top_k: 3
